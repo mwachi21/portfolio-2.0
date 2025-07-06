@@ -7,12 +7,5 @@ venv/
 __pycache__/
 *.pyc
 
-# Logs
-*.log
-
 # OS generated files
-.DS_Store
 Thumbs.db
-
-# VS Code settings
-.vscode/

@@ -14,5 +14,8 @@
   "devDependencies": {
     "concurrently": "^9.2.0",
     "sass": "^1.89.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7"
   }
 }
