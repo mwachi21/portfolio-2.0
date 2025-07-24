@@ -3,19 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"npm run sass\" \"npm run flask\"",
-    "sass": "sass --watch sass/app.sass:static/css/app.css",
-    "flask": "python run.py"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwachi21/portfolio-2.0.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwachi21/portfolio-2.0/issues"
+  },
+  "homepage": "https://github.com/mwachi21/portfolio-2.0#readme",
   "description": "",
   "devDependencies": {
-    "concurrently": "^9.2.0",
-    "sass": "^1.89.2"
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.7"
+    "daisyui": "^5.0.46",
+    "tailwindcss": "^4.1.11"
   }
 }

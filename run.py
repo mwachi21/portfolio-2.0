@@ -16,4 +16,4 @@ def weather():
     return render_template('weather.html')
 
 if __name__ == '__main__':
-        app.run(debug=True)
+        app.run(debug=True) #Set to False in Production
