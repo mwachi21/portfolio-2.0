@@ -1,9 +1,15 @@
-/** @type {import('tailwindcss').Config} */
-
-module.exports = {
-  content: ['./templates/**/*.html'],
-  theme: {
-      extend: {},
-  },
-  plugins: [require('daisyui')],
-};
+ module.exports = {
+       content: [
+         './templates/**/*.html', // Path to your Flask templates
+         // Add other paths if you have dynamic content or JS files using Tailwind classes
+       ],
+       theme: {
+         extend: {},
+       },
+       plugins: [
+         require('daisyui'),
+       ],
+       daisyui: {
+         themes: ["light", "dark", "cupcake"], // Customize your themes
+       }
+     }

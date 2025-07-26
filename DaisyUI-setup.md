@@ -1,19 +1,10 @@
 # Daisy UI Setup
 
-```bash
     npm init -y
-```
-Install Tailwind CSS locally
-```bash
-npm install tailwindcss --save-dev
-```
-```bash
-    npm install -D tailwindcss daisyui
-```
-```bash
+    npm install -D tailwindcss daisyui@latest
     npx tailwindcss init
-```
-Build Tailwind Process
+
+# Build Process
 ```bash
-npx tailwindcss -i ./static/css/style.css -o ./static/css/app.css --watch
+npx tailwindcss -i ./static/sass/input.css -o ./static/css/styles.css --watch
 ```
