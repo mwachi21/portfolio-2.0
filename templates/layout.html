@@ -3,22 +3,23 @@
   <head>
     {% block head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
     <title>{% block title %}{% endblock %} - Portfolio 🪄</title>
     {% endblock %}
   </head>
   <body>
 
-    <!-- <nav>
+    <nav>
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/weather">Weather</a></li>
         </ul>
-    </nav> -->
+    </nav>
     <div id="content">{% block content %}{% endblock %}</div>
     <div id="footer">
       {% block footer %}
-      &copy; Copyright 2025 by <a href="#">you</a>.
+      &copy; Copyright 2025 by <a href="#">Dennis Mwachi</a>.
       {% endblock %}
     </div>
   </body>
