@@ -1,3 +1,10 @@
-     @tailwind base;
-     @tailwind components;
-     @tailwind utilities;
+@import url(https://cdn.simplecss.org/simple.min.css);
+@font-face {
+    font-family: 'Grotesk';
+    src: url('../fonts/grotesk-black.ttf') format('truetype');
+}
+
+h1{
+    font-family: 'Grotesk';
+
+}
