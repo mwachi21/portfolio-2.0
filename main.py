@@ -15,5 +15,9 @@ def about():
 def weather():
     return render_template('weather.html')
 
+@app.route('/design')
+def design():
+    return render_template('design.html')
+
 if __name__ == '__main__':
         app.run(debug=True) #Set to False in Production
