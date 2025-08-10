@@ -15,7 +15,7 @@ Welcome! I'm Dennis Mwachi, a multidisciplinary creative specializing in:
 ## Skills
 
 - Adobe Creative Suite (Photoshop, Illustrator, Premiere Pro, After Effects)
-- Figma, Sketch
+- Figma
 - Frontend & backend web technologies
 - Storyboarding & visual storytelling
 

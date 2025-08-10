@@ -1,0 +1,56 @@
+// @import url(https://cdn.simplecss.org/simple.min.css);
+@import url(../dist/css/out.css);
+// Imports 
+@import 'foundation';
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+@import url("https://fonts.cdnfonts.com/css/mona-sans");
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('../fonts/MonaSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Grotesk';
+    src: url('../fonts/grotesk-black.ttf') format('truetype');
+}
+body{
+    font-family: "Mona Sans", sans-serif;
+    font-weight: 800;
+}
+p{
+    font-family: "Mona Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+h1{
+    font-family: 'Grotesk';
+}
+h2 {
+        font-size: 1.1em;
+}
+
+#content {
+    padding: 20px;
+    min-height: 80vh;
+}
+.button {
+        width: fit-content;
+        border-radius: 100px;
+        padding: 8px 36px;
+        margin-top: 12px;
+        background: #fff2;
+        box-shadow: 
+        0 0 0 1px #fff3, 
+        inset 120px 0 100px -100px #000c, 
+        0 0 0 0 #fff1;
+
+        transition: box-shadow 0.4s ease-in-out;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 
+            0 0 0 1px #fff3, 
+            inset 200px 0px 100px -100px #000a, 
+            -4px 0 8px 2px #fff2;
+        }
+    }
