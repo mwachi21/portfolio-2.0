@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="/static/imgs/logo.jpg" type="image/x-icon">
     <!-- Ripple Effect  -->
      <script src="../node_modules/@material-tailwind/html/sc"></script>
+     <script async src="node_modules/@material-tailwind/html/scripts/ripple.js"></script>
     
     <title>{% block title %}{% endblock %} - Portfolio 🪄</title>
     {% endblock %}
@@ -39,7 +40,7 @@
           <a href="/design" class="flex items-center">Design</a>
         </li>
         <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
-          <a href="#" class="flex items-center">Portfolio</a>
+          <a href="/portfolio" class="flex items-center">Portfolio</a>
         </li>
         <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
           <a href="#" class="flex items-center">FAQs</a>
@@ -105,7 +106,7 @@
     </ul>
   </div>
   <p class="block mb-4 text-sm text-center text-slate-500 md:mb-0 border-t border-slate-200 mt-4 pt-4">
-    Copyright © 2025&nbsp; 
+    Copyright &copy; <script>document.write(new Date().getFullYear())</script>
     <a href="https://material-tailwind.com/" target="_blank" rel="noreferrer"> Mwachi Dennis</a>.
   </p>
   </footer>
@@ -115,6 +116,6 @@
             </script> by <a href="#">Dennis Mwachi</a>.
       {% endblock %}
     </div> -->
-    <!-- {% extends "sidebar.html" %} -->
+    {% extends "sidebar.html" %}
   </body>
 </html>

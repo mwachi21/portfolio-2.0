@@ -19,5 +19,9 @@ def weather():
 def design():
     return render_template('design.html')
 
+@app.route('/portfolio')
+def portfolio():
+    return render_template('portfolio.html')
+
 if __name__ == '__main__':
         app.run(debug=True) #Set to False in Production
