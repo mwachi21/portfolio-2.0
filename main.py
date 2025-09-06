@@ -23,5 +23,10 @@ def design():
 def portfolio():
     return render_template('portfolio.html')
 
+# Error Handler
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html')
+
 if __name__ == '__main__':
         app.run(debug=True) #Set to False in Production

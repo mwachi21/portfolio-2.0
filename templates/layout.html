@@ -14,14 +14,8 @@
   </head>
   <body>
 
-    <!-- <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/weather">Weather</a></li>
-            <li><a href="/design">Design</a></li>
-        </ul>
-    </nav> -->
+    <!-- Navbar -->
+     {% block nav %}
 <nav class="block w-full backdrop-blur-3xl bg-white/30 inset-0 rounded-full  max-w-screen-lg px-4 py-2 mx-auto bg-white bg-opacity-90 sticky top-3 shadow lg:px-8 lg:py-3 backdrop-saturate-150 z-[9999]">
   <div class="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
     <a href="/"
@@ -58,7 +52,7 @@
     </button>
   </div>
 </nav>
-
+{% endblock %}
     <div id="content">{% block content %}{% endblock %}</div>
 
     <!-- Footer  -->
@@ -110,12 +104,7 @@
     <a href="https://material-tailwind.com/" target="_blank" rel="noreferrer"> Mwachi Dennis</a>.
   </p>
   </footer>
-    <!-- <div id="footer">
-      {% block footer %}
-     &copy; Copyright  2021-<script>document.write(new Date().getFullYear())
-            </script> by <a href="#">Dennis Mwachi</a>.
-      {% endblock %}
-    </div> -->
-    {% extends "sidebar.html" %}
+
+    <!-- {% extends "sidebar.html" %} -->
   </body>
 </html>
