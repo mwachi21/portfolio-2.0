@@ -5,9 +5,22 @@
   {{ super() }}
 {% endblock %}
 {% block content %}
-      <div class="hero">
+    <div class="hero">
         <h1>Welcome to My Portfolio</h1>
         <p>This is a simple Flask application to showcase my portfolio.</p>
+<!-- 
+    <video class="h-full w-min align-middle rounded-lg" nocontrols autoPlay muted oncontextmenu="return false;">
+      <source src="../static/video/home.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video> -->
+
+  <div id="video-container">
+    <video width="640" height="360" controls controlsList="nodownload" oncontextmenu="return false">
+        <source src="{{ url_for('get_video') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+  </div>
+
     </div>
     <img src="../static/imgs/Branding-Solutions.webp" alt="Branding Solutions Image">
     <div class="banner">

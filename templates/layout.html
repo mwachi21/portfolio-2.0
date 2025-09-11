@@ -4,7 +4,7 @@
     {% block head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="/static/imgs/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="/static/imgs/favicon.png" type="image/x-icon">
     <!-- Ripple Effect  -->
      <script src="../node_modules/@material-tailwind/html/sc"></script>
      <script async src="node_modules/@material-tailwind/html/scripts/ripple.js"></script>
@@ -16,11 +16,12 @@
 
     <!-- Navbar -->
      {% block nav %}
-<nav class="block w-full backdrop-blur-3xl bg-white/30 inset-0 rounded-full  max-w-screen-lg px-4 py-2 mx-auto bg-white bg-opacity-90 sticky top-3 shadow lg:px-8 lg:py-3 backdrop-saturate-150 z-[9999]">
+<nav class="glass block w-full backdrop-blur-3xl bg-white/30 inset-0 rounded-full  max-w-screen-lg px-4 py-2 mx-auto bg-white bg-opacity-90 sticky top-3 shadow lg:px-8 lg:py-3 backdrop-saturate-150 z-[9999]">
   <div class="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
     <a href="/"
       class="mr-4 block cursor-pointer py-1.5 text-base text-slate-800 h1">
-      <h1>Codexa</h1>
+      <!-- <h1>Codexa</h1> -->
+      <img src="../static/imgs/SVG/logo-b.svg" alt="Not Found" class="h-9">
     </a>
     <div class="hidden lg:block">
       <ul class="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">

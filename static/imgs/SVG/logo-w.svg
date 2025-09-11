@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.85 57.99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: SignateGrotesk-Black, 'Signate Grotesk';
+        font-size: 25.46px;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        fill: #18d387;
+        font-family: BrittanySignatureRegular, 'Brittany Signature';
+        font-size: 21.73px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text transform="translate(0 21.64)"><tspan class="cls-1"><tspan x="0" y="0">CODEXA</tspan></tspan><tspan class="cls-4"><tspan x="23.91" y="16.95">Stud</tspan><tspan class="cls-3" x="61.76" y="16.95">i</tspan><tspan class="cls-2" x="66.99" y="16.95">o</tspan></tspan></text>
+  </g>
+</svg>
