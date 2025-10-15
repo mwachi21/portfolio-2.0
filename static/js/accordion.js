@@ -1,4 +1,4 @@
-  function toggleAccordion(index) {
+function toggleAccordion(index) {
     const content = document.getElementById(`content-${index}`);
     const icon = document.getElementById(`icon-${index}`);
  
