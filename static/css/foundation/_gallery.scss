@@ -1,0 +1,20 @@
+.my-gallery{
+  display: flex;  
+  height: 20rem;
+  gap: 1rem;
+}
+
+.my-gallery > div{
+  flex: 1;
+  background-size: cover;
+  border-radius: 1rem;
+  background-position: center;
+  transition: all 0.5s cubic-bezier(.25, .3, .45, 1);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: auto 100%;
+}
+.my-gallery > div:hover{
+  flex: 5;
+  background-size: cover;
+}

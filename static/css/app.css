@@ -58,6 +58,28 @@
   background-color: rgb(255, 255, 255);
 }
 
+.my-gallery {
+  display: flex;
+  height: 20rem;
+  gap: 1rem;
+}
+
+.my-gallery > div {
+  flex: 1;
+  background-size: cover;
+  border-radius: 1rem;
+  background-position: center;
+  transition: all 0.5s cubic-bezier(0.25, 0.3, 0.45, 1);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: auto 100%;
+}
+
+.my-gallery > div:hover {
+  flex: 5;
+  background-size: cover;
+}
+
 @font-face {
   font-family: "Mona Sans";
   src: url("../fonts/MonaSans-Regular.ttf") format("truetype");
