@@ -27,4 +27,7 @@ Welcome! I'm Dennis Mwachi, a multidisciplinary creative specializing in:
 
 ---
 
+### Inspirations
+
+- [Material](https://www.killerportfolio.com/by/likely-story)
 *Creativity meets technology. Explore my work and let's collaborate!*
