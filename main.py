@@ -28,6 +28,10 @@ def portfolio():
 def faqs():
     return render_template('FAQs.html')
 
+@app.route("/dashboard")
+def dashboard():
+    return render_template('dashboard.html')
+
 @app.route('/video')
 def get_video():
     path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'static', 'videos', 'home.mp4'))
